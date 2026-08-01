@@ -1379,6 +1379,10 @@ html,body{
     display:none;
 }
 
+.navbar{
+    position:relative;
+}
+
 .menu-icon{
     display:block;
     font-size:28px;
@@ -1389,4 +1393,58 @@ html,body{
 
 .menu-icon{
     display:none;
+}
+
+@media(max-width:768px){
+
+.navbar{
+    position:relative;
+}
+
+.nav-links{
+
+    display:none;
+
+    flex-direction:column;
+
+    position:absolute;
+
+    top:70px;
+
+    left:0;
+
+    width:100%;
+
+    background:#fff;
+
+    padding:20px 0;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.nav-links.active{
+
+    display:flex;
+
+}
+
+.nav-links li{
+
+    margin:15px 0;
+
+    text-align:center;
+
+}
+
+.menu-icon{
+
+    display:block;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+}
+
 }
