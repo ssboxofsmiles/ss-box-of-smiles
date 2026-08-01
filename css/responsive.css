@@ -1,0 +1,68 @@
+/* ==========================
+   TABLET
+========================== */
+
+@media(max-width:992px){
+
+    .category-grid,
+    .product-grid,
+    .features-grid,
+    .testimonial-grid,
+    .gallery-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .contact-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:768px){
+
+    section{
+
+        padding:70px 20px;
+
+    }
+
+    .category-grid,
+    .product-grid,
+    .features-grid,
+    .testimonial-grid,
+    .gallery-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .hero{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .hero-content h1{
+
+        font-size:40px;
+
+    }
+
+    .hero-content p{
+
+        font-size:18px;
+
+    }
+
+}
+
