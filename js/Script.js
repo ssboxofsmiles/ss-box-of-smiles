@@ -1,6 +1,6 @@
-// Mobile Menu
 function toggleMenu() {
-    document.getElementById("navLinks").classList.toggle("active");
+    const menu = document.getElementById("navLinks");
+    menu.classList.toggle("active");
 }
 
 // Scroll To Top
@@ -17,10 +17,8 @@ window.addEventListener("scroll", function () {
 });
 
 topBtn.addEventListener("click", function () {
-
     window.scrollTo({
         top: 0,
         behavior: "smooth"
     });
-
 });
