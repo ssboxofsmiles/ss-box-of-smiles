@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products | SS Box of Smiles</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/products.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            SS Box of Smiles
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+
+        </ul>
+
+        <div class="menu-icon" onclick="toggleMenu()">
+            ☰
+        </div>
+
+    </nav>
+
+</header>
+
+<!-- ================= PRODUCTS ================= -->
+
+<section class="products-page">
+
+    <div class="page-title">
+
+        <h1>Our Gift Hampers 🎁</h1>
+
+        <p>Find the perfect gift for every occasion ❤️</p>
+
+    </div>
+
+    <!-- Search + Sort -->
+
+    <div class="products-toolbar">
+
+    <div class="search-box">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="🔍 Search Gift Hampers..."
+        >
+    </div>
+
+    <div class="sort-box">
+        <select id="sortSelect">
+            <option value="default">Sort By</option>
+            <option value="low-high">💰 Price: Low to High</option>
+            <option value="high-low">💰 Price: High to Low</option>
+            <option value="a-z">🔤 Name: A-Z</option>
+            <option value="z-a">🔤 Name: Z-A</option>
+        </select>
+    </div>
+
+</div>
+
+    <!-- Category Filter -->
+
+    <div class="filter-buttons">
+
+        <button class="filter-btn active" data-category="All">All</button>
+        <button class="filter-btn" data-category="Birthday">Birthday</button>
+        <button class="filter-btn" data-category="Festival">Festival</button>
+        <button class="filter-btn" data-category="Anniversary">Anniversary</button>
+        <button class="filter-btn" data-category="Baby">Baby</button>
+        <button class="filter-btn" data-category="Customized">Customized</button>
+
+    </div>
+
+    <!-- Product Count -->
+
+    <div id="productsCount" class="products-count">
+        Showing 0 Products
+    </div>
+
+    <!-- Products -->
+
+    <div id="productsContainer" class="products-grid">
+
+        <!-- Products will load here automatically -->
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="copyright">
+
+        © 2026 SS Box of Smiles. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+<!-- ================= SCRIPTS ================= -->
+
+<script src="assets/js/script.js"></script>
+<script src="assets/data/products-data.js"></script>
+<script src="assets/js/products.js"></script>
+
+</body>
+
+</html>
