@@ -37,6 +37,6 @@ list.appendChild(li);
 });
 
 document.getElementById("whatsappBtn").href =
-`https://wa.me/91YOURNUMBER?text=Hi, I'm interested in ${product.name}`;
+`https://wa.me/919844751214?text=Hi, I'm interested in ${product.name}`;
 
 }

@@ -72,7 +72,7 @@ function displayProducts(items) {
                 </a>
 
                 <a
-                    href="https://wa.me/919999999999?text=Hi, I'm interested in ${product.name}"
+                    href="https://wa.me/919844751214?text=Hi, I'm interested in ${product.name}"
                     class="order-btn"
                     target="_blank">
 
