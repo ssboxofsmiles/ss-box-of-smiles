@@ -12,6 +12,8 @@ document.getElementById("productName").textContent = product.name;
 
 document.getElementById("productPrice").textContent = "₹" + product.price;
 
+document.getElementById("productRating").textContent = product.rating;
+
 document.getElementById("productDescription").textContent = product.description;
 
 const list = document.getElementById("productIncludes");
